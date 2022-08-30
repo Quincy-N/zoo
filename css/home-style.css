@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#id-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    color: hsl(122, 15%, 28%)
+}
+
+#logo {
+    grid-column: 1 / span 2;
+}
+
+#nav-1 {
+    grid-column: 3 / 4;
+}
+
+#nav-2 {
+    grid-column: 4 / 5;
+}
+
+#nav-3 {
+    grid-column: 5 / 6;
+}
