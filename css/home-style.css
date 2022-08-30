@@ -11,27 +11,36 @@ h3 {
 
 #nav-bar {
     display: grid;
+    position:sticky;
     width: 100%;
     height: 3rem;
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5rem;
-    background-color: hsl(120, 12%, 32%)
+    background-color: hsl(120, 12%, 32%);
 }
 
 #logo {
     grid-column: 1 / span 2;
     max-height: 2rem;
     width: auto;
+    justify-self: center;
+    align-self: center;
 }
 
 #nav-1 {
     grid-column: 3 / 4;
+    justify-self: center;
+    align-self: center;
 }
 
 #nav-2 {
     grid-column: 4 / 5;
+    justify-self: center;
+    align-self: center;
 }
 
 #nav-3 {
     grid-column: 5 / 6;
+    justify-self: center;
+    align-self: center;
 }
