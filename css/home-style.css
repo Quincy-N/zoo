@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: hsl(122, 45%, 28%);
 }
 
 h3 {
@@ -8,11 +9,11 @@ h3 {
     color: white;
 }
 
-#id-bar {
+#nav-bar {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5rem;
-    color: hsl(122, 15%, 28%)
+    background-color: hsl(122, 15%, 28%)
 }
 
 #logo {
