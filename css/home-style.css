@@ -4,6 +4,7 @@ body {
 }
 
 h2 {
+    display: block;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2rem;
     color: white;
@@ -22,9 +23,14 @@ h3 {
     color: white;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 #nav-bar {
     display: grid;
-    position:sticky;
+    position: sticky;
     width: 100%;
     grid-template-rows: 5rem;
     grid-template-columns: repeat(6, 1fr);
@@ -58,9 +64,9 @@ h3 {
     align-self: center;
 }
 
-#video-container {
+#videos-container {
     display: grid;
-    width: 100%;
+    width: 100vw;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
 }
