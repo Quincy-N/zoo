@@ -17,6 +17,8 @@ h3 {
 
 #logo {
     grid-column: 1 / span 2;
+    max-height: 2rem;
+    width: auto;
 }
 
 #nav-1 {
