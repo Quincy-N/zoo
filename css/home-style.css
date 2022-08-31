@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(122, 45%, 28%);
+    background: linear-gradient(0deg, rgba(42,86,46,1) 0%, rgba(90,174,61,1) 100%);
     margin: 0;
 }
 
@@ -8,12 +8,12 @@ h2 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2rem;
     color: white;
-    margin: 0 auto;
+    text-align: center;
 }
 
 span {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
 }
 
@@ -21,6 +21,7 @@ h3 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
     color: white;
+    text-align: center;
 }
 
 video {
