@@ -16,6 +16,7 @@ h2 {
 span {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 3rem;
+    font-weight: bold;
     color: white;
 }
 
@@ -35,6 +36,7 @@ video {
     display: grid;
     position: sticky;
     width: 100%;
+    min-width: 750px;
     grid-template-rows: 5rem;
     grid-template-columns: repeat(6, 1fr);
     gap: 1.5rem;
@@ -70,8 +72,11 @@ video {
 #videos-container {
     display: grid;
     width: 100vw;
+    min-width: 750px;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
+    border-top-width: .5rem;
+    border-top-color: tan;
 }
 
 #vid-1 {
