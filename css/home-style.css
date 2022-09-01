@@ -92,14 +92,15 @@ video {
 
 #images-container {
     display: grid;
-    width: 100vw;
-    min-width: 750px;
-    grid-template-rows: auto auto auto;
+    width: 1200px;
+    height: 900px;
+    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
 }
 
 #images-container img {
     height: 100%;
+    width: auto;
     object-fit: cover;
 }
 
