@@ -99,13 +99,16 @@ video {
 }
 
 #images-container img {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
+    
 }
 
 #gator {
     grid-area: 1 / 1 / span 3 / span 1;
+}
+
+#gator img {
+    height: 100%;
+    width: auto;
 }
 
 #goal {
