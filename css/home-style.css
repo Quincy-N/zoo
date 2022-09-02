@@ -78,6 +78,10 @@ video {
     background: linear-gradient(0deg, rgba(42,86,46,1) 0%, rgba(90,174,61,1) 100%);
 }
 
+#top h2 {
+    transform: translate(0,-20px);
+}
+
 #videos-container {
     display: grid;
     width: 100%;
@@ -101,8 +105,8 @@ video {
 #images-container {
     display: grid;
     width: 1200px;
-    height: 900px;
-    grid-template-rows: repeat(3, calc(100%/3));
+    height: 940px;
+    grid-template-rows: repeat(3, 300px);
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin: 40px auto;
