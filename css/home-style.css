@@ -38,9 +38,10 @@ button {
     background-color: rgb(157, 133, 100);
     color: white;
     border-radius: 20px;
-    border-color: rgb(150, 128, 100)
+    border-color: rgb(150, 128, 100);
     padding: 15px 25px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 #nav-bar {
