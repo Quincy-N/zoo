@@ -38,6 +38,7 @@ video {
     top: 0;
     height: 80px;
     width: 100%;
+    margin-bottom: 0;
     grid-template-rows: 5rem;
     grid-template-columns: repeat(6, 1fr);
     gap: 1.5rem;
