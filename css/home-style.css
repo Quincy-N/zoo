@@ -94,14 +94,16 @@ video {
     display: grid;
     width: 1200px;
     height: 900px;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, calc(100%/3));
     grid-template-columns: repeat(3, 1fr);
+    margin: 40px auto;
 }
 
 .grid-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 #gator {
