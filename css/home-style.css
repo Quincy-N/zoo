@@ -143,6 +143,10 @@ button {
     justify-content: center;
 }
 
+#goal h3 {
+    display: block;
+}
+
 #bird {
     grid-area: 2 / 3 / span 1 / span 1;
 }
