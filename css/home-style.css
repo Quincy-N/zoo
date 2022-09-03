@@ -42,12 +42,12 @@ button {
     padding: 10px 15px;
     cursor: pointer;
     margin: 0 auto;
+    max-height: 5rem;
 }
 
 #button-container {
     grid-row: 2 / span 1;
     display: flex;
-    justify-content: center;
 }
 
 #nav-bar {
