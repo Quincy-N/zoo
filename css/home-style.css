@@ -41,6 +41,10 @@ button {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    margin: 0 auto;
+}
+
+#button-container {
     grid-row: 2 / span 1;
 }
 
